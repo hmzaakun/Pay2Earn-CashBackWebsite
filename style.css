@@ -1,0 +1,634 @@
+ body{
+  background-color: white;
+}
+
+.pb-3, .py-3 {
+    padding-bottom: 0rem!important;
+}
+
+header .bg-light {
+    background: linear-gradient(to right, #ff758c, #ff7eb3) !important;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+}
+header .logo{
+  width: 100px;
+  cursor: pointer;
+  margin-left: 40px;
+  padding: 6px;
+}
+
+header .navbar-light .navbar-nav .nav-link {
+    color: gray;
+    margin: 10px;
+    font-size: 20px;
+}
+header .navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+    border-bottom: 3px solid white;
+    padding-bottom: 1px;
+}
+.navbar-light .navbar-toggler {
+    /*background: #7c9eb2;
+    */
+}
+header .connect{
+  margin-right: 50px;
+}
+.pic{
+  border-radius: 30px;
+}
+.dropdown, .dropleft, .dropright, .dropup {
+    margin-right: 100px;
+}
+
+/*-----------------*/
+div.taille{
+  min-height: 100px;
+  background: none;
+}
+/*-----------------*/
+div.index{
+  width: 50%;
+  padding: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 10%;
+  margin-right: 40%;
+  background: white;
+  border: 2px solid #ff758c;
+  border-radius: 20px;
+  color: #ff758c;
+}
+/*-----------------*/
+div.connex form {
+    width: 30%;
+    padding: 40px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: #ff7eb3;
+    text-align: center;
+    border: 2px solid #7c9eb2;
+    border-radius: 20px;
+}
+.text-muted {
+    color: #fff9!important;
+}
+div.connex form h2{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+div.connex form input[type = "email"], div.connex form input[type = "password"], div.connex form input[type = "pseudo"]{
+  border: 0;
+  background: white;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #7c9eb2;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: #52528c;
+  border-radius: 25px;
+}
+div.connex form button[type = "submit"]{
+  border: 0;
+  background: white;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #7c9eb2;
+  padding: 6px 40px;
+  outline: none;
+  color: #52528c;
+  border-radius: 25px;
+}
+div.connex form button[type = "submit"]:hover{
+  background: #372554;
+  color: #fff;
+}
+div.connex form .ca{
+  text-decoration: none;
+  color: #7c9eb2;
+  margin: 10px;
+}
+div.connex form .ca:hover{
+  color: white;
+}
+
+/*---------------------*/
+div.inscrip form {
+    width: 50%;
+    padding: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+    background: #ff7eb3;
+    text-align: center;
+    border: 2px solid #7c9eb2;
+    border-radius: 20px;
+}
+
+div.inscrip form h2{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+div.inscrip form textarea{
+  resize: none;
+}
+
+div.inscrip form input[type = "email"], div.inscrip form input[type = "password"], div.inscrip form input[type = "text"], div.inscrip form input[type = "date"]{
+  border: 0;
+  background: white;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #7c9eb2;
+  padding: 14px 10px;
+  width: 70%;
+  outline: none;
+  color: #52528c;
+  border-radius: 25px;
+}
+
+div.inscrip form button[type = "submit"],div.inscrip form input[type = "submit"]{
+  border: 0;
+  background: white;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #7c9eb2;
+  padding: 6px 40px;
+  outline: none;
+  color: #52528c;
+  border-radius: 25px;
+}
+div.inscrip form button[type = "submit"]:hover, div.inscrip form input[type = "submit"]:hover{
+  background: #372554;
+  color: #fff;
+}
+/*---------*/
+div.contact form {
+    width: 50%;
+    padding: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+    background: linear-gradient(to right, #52528c, #372554);
+    text-align: center;
+    border: 2px solid #7c9eb2;
+    border-radius: 20px;
+}
+div.contact form h2{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+div.contact form input[type = "text"]{
+  border: 0;
+  background: white;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #7c9eb2;
+  padding: 14px 10px;
+  width: 50%;
+  outline: none;
+  color: #52528c;
+  border-radius: 25px;
+}
+div.contact form .text1{
+  border: 0;
+  background: white;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #7c9eb2;
+  padding: 14px 10px;
+  width: 30%;
+  outline: none;
+  color: #52528c;
+  border-radius: 25px;
+  height: 60px;
+  resize: none;
+}
+div.contact form .text2{
+  resize: none;
+  width: 80%;
+  margin: 20px auto;
+  height: 200px;
+}
+div.contact form button[type = "submit"]{
+  border: 0;
+  background: white;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #7c9eb2;
+  padding: 6px 40px;
+  outline: none;
+  color: #52528c;
+  border-radius: 25px;
+}
+div.contact form button[type = "submit"]:hover{
+  background: #372554;
+  color: #fff;
+}
+
+/*-----------------*/
+div.adminedit{
+  width: 90%;
+  padding: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
+  background: linear-gradient(to right, #52528c, #372554);
+  border: 2px solid #7c9eb2;
+  border-radius: 20px;
+}
+div.adminedit1{
+  width: 58%;
+  padding: 10px;
+  margin-left: 2%;
+  margin-right: 40%;
+  margin-bottom: 20px;
+}
+div.adminedit2{
+  width: 96%;
+  padding: 10px;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 20px;
+  color: #fff;
+  display: flex;
+}
+div.adminedit2 label{
+  margin-bottom: 10px;
+}
+div.adminedit2 button{
+  margin-right: 20px;
+}
+div.adminedit2 input[type = "text"]{
+    margin-bottom: 20px;
+}
+div.adminedit3{
+  overflow: auto;
+  width: 100%;
+  padding: 10px;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-bottom: 20px;
+  color: #fff;
+}
+div.adminedit3 .table{
+  color: #fff;
+}
+div.adminedit3 .table a{
+  text-decoration: none;
+}
+div.adminedit3 .table a:hover{
+  color: #fff;
+}
+div.adminedit4{
+  width: 96%;
+  padding: 10px;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 40px;
+}
+div.adminedit4 button[type = "submit"]{
+  margin-top: 20px;
+  margin-right: 10px;
+}
+/*-----------------*/
+div.profil{
+  width: 80%;
+  padding: 40px;
+  padding-left: 10%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+  background: linear-gradient(to right, #ff7eb3, #ff758c);
+  border: 2px solid #7c9eb2;
+  border-radius: 20px;
+}
+div.profil2{
+  min-height: 240px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  padding: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+  background: linear-gradient(to right, #ff7eb3, #ff758c);
+  border: 2px solid #7c9eb2;
+  border-radius: 20px;
+}
+div.profil3{
+  width: 30%;
+  margin: 15px;
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-top: 2px solid #7c9eb2;
+  text-align: center;
+  background: repeating-linear-gradient(45deg, #ffa8b7, transparent 100px);
+}
+div.profil3 img{
+  max-width: 100%;
+}
+max-width: 100%;
+/*-----------------*/
+div.recherche{
+  width: 40%;
+  padding: 20px;
+  padding-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: 30%;
+  margin-right: 30%;
+  background: linear-gradient(to right, #52528c, #372554);
+  border: 2px solid #7c9eb2;
+  border-radius: 20px;
+}
+div.recherche img{
+  border-radius: 50px;
+}
+div.recherche a{
+  font-size: 1.2em;
+  text-decoration: none;
+  color: #7c9eb2;
+  margin: 10px;
+}
+div.recherche a:hover{
+  color: white;
+}
+div.recherche1{
+  text-align: center;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  border-radius: 20px;
+}
+div.recherche1 form{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+div.recherche1 form input[type = "text"]{
+  border: 0;
+  background: white;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #7c9eb2;
+  padding: 14px 10px;
+  width: 70%;
+  outline: none;
+  color: #52528c;
+  border-radius: 25px;
+}
+div.recherche1 form input[type = "submit"]{
+  border: 0;
+  background: white;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #7c9eb2;
+  padding: 14px 10px;
+  width: 40%;
+  outline: none;
+  color: #52528c;
+  border-radius: 25px;
+}
+/*-----------------*/
+div.filactu{
+  width: 50%;
+  padding: 50px;
+  padding-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 25%;
+  margin-right: 25%;
+  background: linear-gradient(to right, #52528c, #372554);
+  border: 2px solid #7c9eb2;
+  border-radius: 20px;
+}
+div.filactu a{
+  text-decoration: none;
+}
+div.filactu a:hover{
+  color: white;
+}
+div.filactu1{
+  text-align: center;
+}
+div.filactu img{
+  max-width: 100%;
+  max-height: 100%;
+  min-width: 50%;
+  min-height: 50%;
+
+}
+
+/*-----------------*/
+div.decouvrir{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  padding: 0px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+  background: none;
+}
+div.decouvrir1{
+  width: 30%;
+  margin: 15px;
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background: linear-gradient(to right, #ff758c, #ff7eb3);
+  border: 2px solid #7c9eb2;
+  text-align: center;
+  border-radius: 20px;
+}
+div.decouvrir1 img{
+  max-width: 100%;
+}
+/*-----------------*/
+div.publi{
+  min-height: 240px;
+  width: 80%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+  background: linear-gradient(to right, #ff758c, #ff7eb3);
+  border: 2px solid #7c9eb2;
+  border-radius: 20px;
+}
+div.publi1{
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+div.publi1 a{
+  text-decoration: none;
+}
+div.publi1 a:hover{
+  color: white;
+}
+div.publi1 img{
+  height: 500px;
+  width: 500px;
+  padding: 20px;
+  margin-top: 50px;
+  text-align: center;
+}
+div.comm{
+  margin-bottom: 50px;
+  width: 80%;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+div.comm1{
+  width: 100%;
+  border: 5px solid #7c9eb2;
+  max-height: 200px;
+  overflow: auto;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+div.comm input{
+  border: 2px solid #7c9eb2;
+  border-radius: 20px;
+  padding: 8px;
+}
+/*-----------------*/
+div.track{
+  text-align:center;
+  width: 40%;
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 30%;
+  margin-right: 30%;
+  background: linear-gradient(to right, #52528c, #372554);
+  border: 2px solid #7c9eb2;
+  border-radius: 20px;
+}
+div.track a{
+  text-decoration: none;
+}
+div.track a:hover{
+  color: white;
+}
+div.track1{
+  text-align:center;
+  width: 90%;
+  padding: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
+  background: linear-gradient(to right, #52528c, #372554);
+  border: 2px solid #7c9eb2;
+  border-radius: 20px;
+}
+div.track1 a{
+  text-decoration: none;
+}
+div.track1 a:hover{
+  color: white;
+}
+/*-----------------*/
+div.message{
+  text-align:center;
+  width: 80%;
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+  background: linear-gradient(to right, #52528c, #372554);
+  border: 2px solid #7c9eb2;
+  border-radius: 20px;
+}
+div.message input{
+  border: 2px solid #7c9eb2;
+  border-radius: 20px;
+  padding: 8px;
+}
+div.message1{
+  overflow: auto;
+  max-height: 60%;
+  text-align: start;
+  width: 90%;
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
+  background: white;
+  border: 5px solid #7c9eb2;
+}
+div.message2{
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+  text-align: start;
+  background: #546de5;
+  border: 2px solid #7c9eb2;
+  border-radius: 20px;
+
+}
+/*-----------------*/
+
+/*-----------------*/
+
+footer {
+  box-shadow: 0px 6px 8px 8px rgba(0, 0, 0, 0.3);
+  position: fixed;
+  bottom: 0;
+  background: linear-gradient(to right, #ff758c, #ff7eb3);
+  color:#fff;
+  width:100%;
+}
+
+.footer a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer a:hover {
+  opacity:1;
+  color: #7c9eb2;
+}
+.foot {
+  text-align: center;
+}
+.foot a{
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}

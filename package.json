@@ -1,0 +1,6 @@
+{
+  "name": "Pay2Earn",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
+}

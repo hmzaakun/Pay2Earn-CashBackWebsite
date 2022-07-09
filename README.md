@@ -6,7 +6,7 @@ Le site marche grace aux offres preferencielles des entreprises couplé à un ca
 qui ont une carte pouvant etre scanner via une [app Android](https://github.com/hmzaakun/barCodeScanner).
 
 
-## Authors
+## Auteurs
 
 - [@Hamza](https://www.github.com/hmzaakun)
 - [@Yassine](https://github.com/Yassine94110)
